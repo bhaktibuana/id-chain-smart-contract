@@ -1,0 +1,21 @@
+{
+  "name": "id-chain-smart-contract",
+  "version": "1.0.0",
+  "description": "Smart Contract of IDChain App",
+  "main": "index.js",
+  "repository": "https://github.com/bhaktibuana/id-chain-smart-contract.git",
+  "author": "Bhakti Mega Buana <bhakti@orderonline.id>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy:dev": "truffle migrate --network development",
+    "deploy:testnet": "truffle migrate --network testnet",
+    "deploy:mainnet": "truffle migrate --network mainnet",
+    "test": "truffle test"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0"
+  }
+}
